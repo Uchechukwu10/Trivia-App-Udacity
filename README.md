@@ -25,6 +25,15 @@ You will receive errors of three types which include:
 500: Internal server error
 
 ## Endpoint Library
+### Endpoints
+GET /categories
+GET /questions
+DELETE /questions/{question_id}
+POST /questions
+POST /questions/search
+GET /categories/{category_id}/questions
+POST /quizzes
+
 ### GET /categories
 - General
   - Fetches a dictionary of all categories of questions in the database.
